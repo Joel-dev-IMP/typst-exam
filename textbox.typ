@@ -34,7 +34,7 @@
 
     let _pattern = grid_pattern
 
-    if (pattern == "none") {
+    if (pattern == "none" or pattern == "blank") {
       _pattern = none
     }
 
